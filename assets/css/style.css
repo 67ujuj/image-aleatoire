@@ -1,12 +1,36 @@
-.container{
-    position: relative;
-}
-.bgimage{
-    max-width: 100%;
-    max-height: 100%;
-    opacity: 0.42;  
-    position: absolute;
+body{
+    background-color: rgb(207, 207, 207);
+    font-family: Fredoka;
+    text-align: center;
 }
 .afpaphotos{
-    z-index: 1;
+    background-image: url(/assets/img/paysage.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 30vw;
+    border: 2px solid rgb(255, 0, 191);
+}
+.imgphoto{
+    width: 10%;
+    border: 2px solid rgb(255, 0, 0);
+}
+.texte{
+    margin: 0 auto;
+    border: 2px solid rgb(0, 247, 255);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.ligneimage{
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#imagehtml{
+    width: 700px;
+    margin: 0 auto;
 }
